@@ -1,6 +1,6 @@
 # laravel-query-scopes-example
 
-This is the companion source code to my website article, [2 Ways to Code Laravel Query Scopes, Part I](https://stories.unrivaledceations.com/blog/post/2-ways-to-code-laravel-query-scopes-part-1).  This article explains how to use _local query scopes_.  Part II of the article series will demonstrate how to use _global query scopes_.
+This is the companion source code to my website article, [2 Ways to Code Laravel Query Scopes, Part I](https://stories.unrivaledcreations.com/blog/post/2-ways-to-code-laravel-query-scopes-part-1).  This article explains how to use _local query scopes_.  Part II of the article series will demonstrate how to use _global query scopes_.
 
 ## Installation and Usage
 (1.) Install Laravel and create a scratch project to experiment with.  (I&rsquo;ve created a [5-minute Laravel Setup guide](https://stories.unrivaledcreations.com/blog/post/5-minute-guide-to-setting-up-laravel-mac) for Apple Mac users that might be helpful if you&rsquo;ve never done it before or don&rsquo;t already have Laravel ready to go on your system.)
@@ -36,4 +36,4 @@ php artisan tinker
 _You may optionally implement routes and views to take your exploration to a more practical level, but `tinker` is very nice for learning._
 
 ## Additional Information
-For more information about this Laravel local query scopes example, visit the Unrivaled Creations website at [https://stories.unrivaledceations.com/blog/post/2-ways-to-code-laravel-query-scopes-part-1](https://stories.unrivaledceations.com/blog/post/2-ways-to-code-laravel-query-scopes-part-1).
+For more information about this Laravel local query scopes example, visit the Unrivaled Creations website at [https://stories.unrivaledcreations.com/blog/post/2-ways-to-code-laravel-query-scopes-part-1](https://stories.unrivaledcreations.com/blog/post/2-ways-to-code-laravel-query-scopes-part-1).
