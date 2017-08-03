@@ -3,7 +3,7 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-use App\Scopes\StaleScope;
+use Carbon\Carbon;
 
 class Donut extends Model
 {
@@ -11,6 +11,8 @@ class Donut extends Model
     {
         parent::boot();
 
-        static::addGlobalScope(new StaleScope);
+        static::addGlobalScope('stale', function (Builder $builder) {
+            $builder->where('baked_at', '>=', Carbon::now()->subDays(3));
+        });
     }
 }
