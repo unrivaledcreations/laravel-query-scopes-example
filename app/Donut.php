@@ -4,6 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 use Carbon\Carbon;
+use App\Scopes\StaleScope;
 
 class Donut extends Model
 {
@@ -17,5 +18,12 @@ class Donut extends Model
     {
         $now = Carbon::now();
         return $query->where('baked_at', '>=', $now->subDays(3));
+    }
+
+    protected static function boot()
+    {
+        parent::boot();
+
+        static::addGlobalScope(new StaleScope);
     }
 }
