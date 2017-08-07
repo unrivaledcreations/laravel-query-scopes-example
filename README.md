@@ -36,4 +36,4 @@ php artisan tinker
 _You may optionally implement routes and views to take your exploration to a more practical level, but `tinker` is very nice for learning._
 
 ## Additional Information
-For more information about this Laravel local query scopes example, visit the Unrivaled Creations website at [https://stories.unrivaledcreations.com/blog/post/2-ways-to-code-laravel-query-scopes-part-1](https://stories.unrivaledcreations.com/blog/post/2-ways-to-code-laravel-query-scopes-part-1).
+For more information about this Laravel local query scopes example, visit the Unrivaled Creations website at [https://stories.unrivaledcreations.com/blog/post/2-ways-to-code-laravel-query-scopes-part-1](https://stories.unrivaledcreations.com/blog/post/2-ways-to-code-laravel-query-scopes-part-1) and [https://stories.unrivaledcreations.com/blog/post/2-ways-to-code-laravel-query-scopes-part-2](https://stories.unrivaledcreations.com/blog/post/2-ways-to-code-laravel-query-scopes-part-2).
